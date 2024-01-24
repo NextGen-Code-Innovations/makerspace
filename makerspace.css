@@ -1,6 +1,6 @@
 body {
     background-color: #b6fabc;
-    min-height: 500vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
