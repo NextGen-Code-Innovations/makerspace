@@ -13,10 +13,31 @@
     .makerspaceLogo {
         justify-items: left;
     }
+    .container {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+
+    img {
+    max-width: 100%;
+    max-height:100%;
+    }
+
+    .text {
+    font-size: 70px;
+    }
 </style>
 <body>
-    <img src="/src/makerspaceLogo.png" alt="Makerspace Logo" width="150" height="150" class="makerspaceLogo">
-    <h1>Wildcat Makerspace</h1>
+    <div class="makerspaceHeadingContainer">
+        <div class="makerspaceLogo">
+            <img src="/src/makerspaceLogo.png" alt="Makerspace Logo" width="150" height="150">
+        </div>
+        <div class="makerspaceHeading">
+            <h1>Wildcat Makerspace</h1>
+        </div>
+    </div>
     <nav class="topnav">
         <a class="active" href="index.html">Home</a> &NonBreakingSpace;
         <a href="projects.html">Projects</a> &NonBreakingSpace;
