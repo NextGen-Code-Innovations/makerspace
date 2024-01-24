@@ -20,6 +20,11 @@ body {
   align-items: left;
 }
 
+img makerspaceLogo {
+  float: left;
+
+}
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
