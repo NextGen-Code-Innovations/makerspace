@@ -5,6 +5,7 @@ body {
 .topnav {
     background-color: #87f090;
     overflow: hidden;
+    justify-content: right;
 }
 
 .topnav a {
