@@ -3,9 +3,11 @@
 }
 
 .katImage {
+    float: left;
     justify-items: left;
 }
 
 .katContent {
+    float: right;
     font-size: 1.0em;
 }
