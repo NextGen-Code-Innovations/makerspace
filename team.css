@@ -1,17 +1,17 @@
-.katContainer {
+.personContainer {
     font-size: 1.0em;
 }
 
-.katHeading {
+.personHeading {
     align-items: center;
 }
 
-.katImage {
+.personImage {
     float: left;
     justify-items: left;
 }
 
-.katContent {
+.personContent {
     float: middle;
     text-align: center;
     font-size: 1.0em;
