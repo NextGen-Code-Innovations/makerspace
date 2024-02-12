@@ -1,5 +1,5 @@
 .secondnav {
-    background-color: #87f090;
+    background-color: #60bb68;
     overflow: hidden;
     justify-content: right;
 }
@@ -19,7 +19,7 @@
 }
 
 .secondnav a.active {
-  background-color: #04AA6D;
+  background-color: #058f5c;
   color: white;
 }
 
