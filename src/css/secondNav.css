@@ -13,16 +13,16 @@
   font-size: 17px;
 }
 
-.topnav a:hover {
+.secondnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav a.active {
+.secondnav a.active {
   background-color: #04AA6D;
   color: white;
 }
 
-.topnav-right {
+.secondnav-right {
   float: right;
 }
