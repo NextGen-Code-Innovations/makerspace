@@ -1,0 +1,64 @@
+/* Style the form container */
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Style the form elements */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style input fields */
+input[type="name"],
+input[type="email"],
+input[type="role"],
+input[type="medium"],
+input[type="size"],
+input[type="use"],
+input[type="details"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Ensure that padding and border are included in the width */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add hover effect to the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style error messages */
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+/* Style success messages */
+.success {
+    color: green;
+    margin-top: 5px;
+}
